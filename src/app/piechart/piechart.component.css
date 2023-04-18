@@ -1,0 +1,26 @@
+.data-sm h6 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.data h6 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.data-lg-value {
+    margin-bottom: 30px;
+}
+
+table.dataTable.no-footer {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: 1px solid #0d6efd;
+}
+
+div#DataTables_Table_1_length {
+    margin-bottom: 20px !important;
+}
+
+div#DataTables_Table_0_length {
+    margin-bottom: 20px !important;
+}

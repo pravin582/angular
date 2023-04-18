@@ -1,0 +1,684 @@
+<div class="main-wrapper">
+	<app-header></app-header>
+	<div class="page-wrapper">
+				
+    
+        <nav class="navbar">
+            <a href="#" class="sidebar-toggler">
+                <i data-feather="menu"></i>
+            </a>
+            <div class="navbar-content">
+                <form class="search-form">
+                    <div class="input-group">
+          <div class="input-group-text">
+            <i data-feather="search"></i>
+          </div>
+                        <input type="text" class="form-control" id="navbarForm" placeholder="Search here...">
+                    </div>
+                </form>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="flag-icon flag-icon-us mt-1" title="us"></i> <span class="ms-1 me-1 d-none d-md-inline-block">English</span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="languageDropdown">
+            <a href="javascript:;" class="dropdown-item py-2"><i class="flag-icon flag-icon-us" title="us" id="us"></i> <span class="ms-1"> English </span></a>
+            <a href="javascript:;" class="dropdown-item py-2"><i class="flag-icon flag-icon-fr" title="fr" id="fr"></i> <span class="ms-1"> French </span></a>
+            <a href="javascript:;" class="dropdown-item py-2"><i class="flag-icon flag-icon-de" title="de" id="de"></i> <span class="ms-1"> German </span></a>
+            <a href="javascript:;" class="dropdown-item py-2"><i class="flag-icon flag-icon-pt" title="pt" id="pt"></i> <span class="ms-1"> Portuguese </span></a>
+            <a href="javascript:;" class="dropdown-item py-2"><i class="flag-icon flag-icon-es" title="es" id="es"></i> <span class="ms-1"> Spanish </span></a>
+                        </div>
+        </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="appsDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i data-feather="grid"></i>
+                        </a>
+                        <div class="dropdown-menu p-0" aria-labelledby="appsDropdown">
+            <div class="px-3 py-2 d-flex align-items-center justify-content-between border-bottom">
+                                <p class="mb-0 fw-bold">Web Apps</p>
+                                <a href="javascript:;" class="text-muted">Edit</a>
+                            </div>
+            <div class="row g-0 p-1">
+              <div class="col-3 text-center">
+                <a href="#" class="dropdown-item d-flex flex-column align-items-center justify-content-center wd-70 ht-70"><i data-feather="message-square" class="icon-lg mb-1"></i><p class="tx-12">Chat</p></a>
+              </div>
+              <div class="col-3 text-center">
+                <a href="#" class="dropdown-item d-flex flex-column align-items-center justify-content-center wd-70 ht-70"><i data-feather="calendar" class="icon-lg mb-1"></i><p class="tx-12">Calendar</p></a>
+              </div>
+              <div class="col-3 text-center">
+                <a href="#" class="dropdown-item d-flex flex-column align-items-center justify-content-center wd-70 ht-70"><i data-feather="mail" class="icon-lg mb-1"></i><p class="tx-12">Email</p></a>
+              </div>
+              <div class="col-3 text-center">
+                <a href="#" class="dropdown-item d-flex flex-column align-items-center justify-content-center wd-70 ht-70"><i data-feather="instagram" class="icon-lg mb-1"></i><p class="tx-12">Profile</p></a>
+              </div>
+            </div>
+                            <div class="px-3 py-2 d-flex align-items-center justify-content-center border-top">
+                                <a href="javascript:;">View all</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="messageDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i data-feather="mail"></i>
+                        </a>
+                        <div class="dropdown-menu p-0" aria-labelledby="messageDropdown">
+                            <div class="px-3 py-2 d-flex align-items-center justify-content-between border-bottom">
+                                <p>9 New Messages</p>
+                                <a href="javascript:;" class="text-muted">Clear all</a>
+                            </div>
+            <div class="p-1">
+              <a href="javascript:;" class="dropdown-item d-flex align-items-center py-2">
+                <div class="me-3">
+                  <img class="wd-30 ht-30 rounded-circle" src="assets/images/faces/face2.jpg" alt="userr">
+                </div>
+                <div class="d-flex justify-content-between flex-grow-1">
+                  <div class="me-4">
+                    <p>Leonardo Payne</p>
+                    <p class="tx-12 text-muted">Project status</p>
+                  </div>
+                  <p class="tx-12 text-muted">2 min ago</p>
+                </div>	
+              </a>
+              <a href="javascript:;" class="dropdown-item d-flex align-items-center py-2">
+                <div class="me-3">
+                  <img class="wd-30 ht-30 rounded-circle" src="assets/images/faces/face3.jpg" alt="userr">
+                </div>
+                <div class="d-flex justify-content-between flex-grow-1">
+                  <div class="me-4">
+                    <p>Carl Henson</p>
+                    <p class="tx-12 text-muted">Client meeting</p>
+                  </div>
+                  <p class="tx-12 text-muted">30 min ago</p>
+                </div>	
+              </a>
+              <a href="javascript:;" class="dropdown-item d-flex align-items-center py-2">
+                <div class="me-3">
+                  <img class="wd-30 ht-30 rounded-circle" src="assets/images/faces/face4.jpg" alt="userr">
+                </div>
+                <div class="d-flex justify-content-between flex-grow-1">
+                  <div class="me-4">
+                    <p>Jensen Combs</p>
+                    <p class="tx-12 text-muted">Project updates</p>
+                  </div>
+                  <p class="tx-12 text-muted">1 hrs ago</p>
+                </div>	
+              </a>
+              <a href="javascript:;" class="dropdown-item d-flex align-items-center py-2">
+                <div class="me-3">
+                  <img class="wd-30 ht-30 rounded-circle" src="assets/images/faces/face5.jpg" alt="userr">
+                </div>
+                <div class="d-flex justify-content-between flex-grow-1">
+                  <div class="me-4">
+                    <p>Amiah Burton</p>
+                    <p class="tx-12 text-muted">Project deatline</p>
+                  </div>
+                  <p class="tx-12 text-muted">2 hrs ago</p>
+                </div>	
+              </a>
+              <a href="javascript:;" class="dropdown-item d-flex align-items-center py-2">
+                <div class="me-3">
+                  <img class="wd-30 ht-30 rounded-circle" src="assets/images/faces/face6.jpg" alt="userr">
+                </div>
+                <div class="d-flex justify-content-between flex-grow-1">
+                  <div class="me-4">
+                    <p>Yaretzi Mayo</p>
+                    <p class="tx-12 text-muted">New record</p>
+                  </div>
+                  <p class="tx-12 text-muted">5 hrs ago</p>
+                </div>	
+              </a>
+            </div>
+                            <div class="px-3 py-2 d-flex align-items-center justify-content-center border-top">
+                                <a href="javascript:;">View all</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="notificationDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i data-feather="bell"></i>
+                            <div class="indicator">
+                                <div class="circle"></div>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu p-0" aria-labelledby="notificationDropdown">
+                            <div class="px-3 py-2 d-flex align-items-center justify-content-between border-bottom">
+                                <p>6 New Notifications</p>
+                                <a href="javascript:;" class="text-muted">Clear all</a>
+                            </div>
+            <div class="p-1">
+              <a href="javascript:;" class="dropdown-item d-flex align-items-center py-2">
+                <div class="wd-30 ht-30 d-flex align-items-center justify-content-center bg-primary rounded-circle me-3">
+                                        <i class="icon-sm text-white" data-feather="gift"></i>
+                </div>
+                <div class="flex-grow-1 me-2">
+                                        <p>New Order Recieved</p>
+                                        <p class="tx-12 text-muted">30 min ago</p>
+                </div>	
+              </a>
+              <a href="javascript:;" class="dropdown-item d-flex align-items-center py-2">
+                <div class="wd-30 ht-30 d-flex align-items-center justify-content-center bg-primary rounded-circle me-3">
+                                        <i class="icon-sm text-white" data-feather="alert-circle"></i>
+                </div>
+                <div class="flex-grow-1 me-2">
+                                        <p>Server Limit Reached!</p>
+                                        <p class="tx-12 text-muted">1 hrs ago</p>
+                </div>	
+              </a>
+              <a href="javascript:;" class="dropdown-item d-flex align-items-center py-2">
+                <div class="wd-30 ht-30 d-flex align-items-center justify-content-center bg-primary rounded-circle me-3">
+                  <img class="wd-30 ht-30 rounded-circle" src="assets/images/faces/face6.jpg" alt="userr">
+                </div>
+                <div class="flex-grow-1 me-2">
+                                        <p>New customer registered</p>
+                                        <p class="tx-12 text-muted">2 sec ago</p>
+                </div>	
+              </a>
+              <a href="javascript:;" class="dropdown-item d-flex align-items-center py-2">
+                <div class="wd-30 ht-30 d-flex align-items-center justify-content-center bg-primary rounded-circle me-3">
+                                        <i class="icon-sm text-white" data-feather="layers"></i>
+                </div>
+                <div class="flex-grow-1 me-2">
+                                        <p>Apps are ready for update</p>
+                                        <p class="tx-12 text-muted">5 hrs ago</p>
+                </div>	
+              </a>
+              <a href="javascript:;" class="dropdown-item d-flex align-items-center py-2">
+                <div class="wd-30 ht-30 d-flex align-items-center justify-content-center bg-primary rounded-circle me-3">
+                                        <i class="icon-sm text-white" data-feather="download"></i>
+                </div>
+                <div class="flex-grow-1 me-2">
+                                        <p>Download completed</p>
+                                        <p class="tx-12 text-muted">6 hrs ago</p>
+                </div>	
+              </a>
+            </div>
+                            <div class="px-3 py-2 d-flex align-items-center justify-content-center border-top">
+                                <a href="javascript:;">View all</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img class="wd-30 ht-30 rounded-circle" src="assets/images/faces/face1.jpg" alt="profile">
+                        </a>
+                        <div class="dropdown-menu p-0" aria-labelledby="profileDropdown">
+                            <div class="d-flex flex-column align-items-center border-bottom px-5 py-3">
+                                <div class="mb-3">
+                                    <img class="wd-80 ht-80 rounded-circle" src="assets/images/faces/face1.jpg" alt="">
+                                </div>
+                                <div class="text-center">
+                                    <p class="tx-16 fw-bolder">Amiah Burton</p>
+                                    <p class="tx-12 text-muted">amiahburton@gmail.com</p>
+                                </div>
+                            </div>
+            <ul class="list-unstyled p-1">
+              <li class="dropdown-item py-2">
+                <a href="../general/profile.html" class="text-body ms-0">
+                  <i class="me-2 icon-md" data-feather="user"></i>
+                  <span>Profile</span>
+                </a>
+              </li>
+              <li class="dropdown-item py-2">
+                <a href="javascript:;" class="text-body ms-0">
+                  <i class="me-2 icon-md" data-feather="edit"></i>
+                  <span>Edit Profile</span>
+                </a>
+              </li>
+              <li class="dropdown-item py-2">
+                <a href="javascript:;" class="text-body ms-0">
+                  <i class="me-2 icon-md" data-feather="repeat"></i>
+                  <span>Switch User</span>
+                </a>
+              </li>
+              <li class="dropdown-item py-2">
+                <a href="javascript:;" class="text-body ms-0">
+                  <i class="me-2 icon-md" data-feather="log-out"></i>
+                  <span>Log Out</span>
+                </a>
+              </li>
+            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- partial -->
+
+		
+		<div class="page-wrapper">
+				
+			<!-- partial:../../partials/_navbar.html -->
+			<nav class="navbar">
+				<a href="#" class="sidebar-toggler">
+					<i data-feather="menu"></i>
+				</a>
+				<div class="navbar-content">
+					<form class="search-form">
+						<div class="input-group">
+              <div class="input-group-text">
+                <i data-feather="search"></i>
+              </div>
+							<input type="text" class="form-control" id="navbarForm" placeholder="Search here...">
+						</div>
+					</form>
+					<ul class="navbar-nav">
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i class="flag-icon flag-icon-us mt-1" title="us"></i> <span class="ms-1 me-1 d-none d-md-inline-block">English</span>
+							</a>
+							<div class="dropdown-menu" aria-labelledby="languageDropdown">
+                <a href="javascript:;" class="dropdown-item py-2"><i class="flag-icon flag-icon-us" title="us" id="us"></i> <span class="ms-1"> English </span></a>
+                <a href="javascript:;" class="dropdown-item py-2"><i class="flag-icon flag-icon-fr" title="fr" id="fr"></i> <span class="ms-1"> French </span></a>
+                <a href="javascript:;" class="dropdown-item py-2"><i class="flag-icon flag-icon-de" title="de" id="de"></i> <span class="ms-1"> German </span></a>
+                <a href="javascript:;" class="dropdown-item py-2"><i class="flag-icon flag-icon-pt" title="pt" id="pt"></i> <span class="ms-1"> Portuguese </span></a>
+                <a href="javascript:;" class="dropdown-item py-2"><i class="flag-icon flag-icon-es" title="es" id="es"></i> <span class="ms-1"> Spanish </span></a>
+							</div>
+            </li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="appsDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i data-feather="grid"></i>
+							</a>
+							<div class="dropdown-menu p-0" aria-labelledby="appsDropdown">
+                <div class="px-3 py-2 d-flex align-items-center justify-content-between border-bottom">
+									<p class="mb-0 fw-bold">Web Apps</p>
+									<a href="javascript:;" class="text-muted">Edit</a>
+								</div>
+                <div class="row g-0 p-1">
+                  <div class="col-3 text-center">
+                    <a href="../apps/chat.html" class="dropdown-item d-flex flex-column align-items-center justify-content-center wd-70 ht-70"><i data-feather="message-square" class="icon-lg mb-1"></i><p class="tx-12">Chat</p></a>
+                  </div>
+                  <div class="col-3 text-center">
+                    <a href="../apps/calendar.html" class="dropdown-item d-flex flex-column align-items-center justify-content-center wd-70 ht-70"><i data-feather="calendar" class="icon-lg mb-1"></i><p class="tx-12">Calendar</p></a>
+                  </div>
+                  <div class="col-3 text-center">
+                    <a href="../email/inbox.html" class="dropdown-item d-flex flex-column align-items-center justify-content-center wd-70 ht-70"><i data-feather="mail" class="icon-lg mb-1"></i><p class="tx-12">Email</p></a>
+                  </div>
+                  <div class="col-3 text-center">
+                    <a href="../general/profile.html" class="dropdown-item d-flex flex-column align-items-center justify-content-center wd-70 ht-70"><i data-feather="instagram" class="icon-lg mb-1"></i><p class="tx-12">Profile</p></a>
+                  </div>
+                </div>
+								<div class="px-3 py-2 d-flex align-items-center justify-content-center border-top">
+									<a href="javascript:;">View all</a>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="messageDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i data-feather="mail"></i>
+							</a>
+							<div class="dropdown-menu p-0" aria-labelledby="messageDropdown">
+								<div class="px-3 py-2 d-flex align-items-center justify-content-between border-bottom">
+									<p>9 New Messages</p>
+									<a href="javascript:;" class="text-muted">Clear all</a>
+								</div>
+                <div class="p-1">
+                  <a href="javascript:;" class="dropdown-item d-flex align-items-center py-2">
+                    <div class="me-3">
+                      <img class="wd-30 ht-30 rounded-circle" src="assets/images/faces/face2.jpg" alt="userr">
+                    </div>
+                    <div class="d-flex justify-content-between flex-grow-1">
+                      <div class="me-4">
+                        <p>Leonardo Payne</p>
+                        <p class="tx-12 text-muted">Project status</p>
+                      </div>
+                      <p class="tx-12 text-muted">2 min ago</p>
+                    </div>	
+                  </a>
+                  <a href="javascript:;" class="dropdown-item d-flex align-items-center py-2">
+                    <div class="me-3">
+                      <img class="wd-30 ht-30 rounded-circle" src="assets/images/faces/face3.jpg" alt="userr">
+                    </div>
+                    <div class="d-flex justify-content-between flex-grow-1">
+                      <div class="me-4">
+                        <p>Carl Henson</p>
+                        <p class="tx-12 text-muted">Client meeting</p>
+                      </div>
+                      <p class="tx-12 text-muted">30 min ago</p>
+                    </div>	
+                  </a>
+                  <a href="javascript:;" class="dropdown-item d-flex align-items-center py-2">
+                    <div class="me-3">
+                      <img class="wd-30 ht-30 rounded-circle" src="assets/images/faces/face4.jpg" alt="userr">
+                    </div>
+                    <div class="d-flex justify-content-between flex-grow-1">
+                      <div class="me-4">
+                        <p>Jensen Combs</p>
+                        <p class="tx-12 text-muted">Project updates</p>
+                      </div>
+                      <p class="tx-12 text-muted">1 hrs ago</p>
+                    </div>	
+                  </a>
+                  <a href="javascript:;" class="dropdown-item d-flex align-items-center py-2">
+                    <div class="me-3">
+                      <img class="wd-30 ht-30 rounded-circle" src="assets/images/faces/face5.jpg" alt="userr">
+                    </div>
+                    <div class="d-flex justify-content-between flex-grow-1">
+                      <div class="me-4">
+                        <p>Amiah Burton</p>
+                        <p class="tx-12 text-muted">Project deatline</p>
+                      </div>
+                      <p class="tx-12 text-muted">2 hrs ago</p>
+                    </div>	
+                  </a>
+                  <a href="javascript:;" class="dropdown-item d-flex align-items-center py-2">
+                    <div class="me-3">
+                      <img class="wd-30 ht-30 rounded-circle" src="assets/images/faces/face6.jpg" alt="userr">
+                    </div>
+                    <div class="d-flex justify-content-between flex-grow-1">
+                      <div class="me-4">
+                        <p>Yaretzi Mayo</p>
+                        <p class="tx-12 text-muted">New record</p>
+                      </div>
+                      <p class="tx-12 text-muted">5 hrs ago</p>
+                    </div>	
+                  </a>
+                </div>
+								<div class="px-3 py-2 d-flex align-items-center justify-content-center border-top">
+									<a href="javascript:;">View all</a>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="notificationDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i data-feather="bell"></i>
+								<div class="indicator">
+									<div class="circle"></div>
+								</div>
+							</a>
+							<div class="dropdown-menu p-0" aria-labelledby="notificationDropdown">
+								<div class="px-3 py-2 d-flex align-items-center justify-content-between border-bottom">
+									<p>6 New Notifications</p>
+									<a href="javascript:;" class="text-muted">Clear all</a>
+								</div>
+                <div class="p-1">
+                  <a href="javascript:;" class="dropdown-item d-flex align-items-center py-2">
+                    <div class="wd-30 ht-30 d-flex align-items-center justify-content-center bg-primary rounded-circle me-3">
+											<i class="icon-sm text-white" data-feather="gift"></i>
+                    </div>
+                    <div class="flex-grow-1 me-2">
+											<p>New Order Recieved</p>
+											<p class="tx-12 text-muted">30 min ago</p>
+                    </div>	
+                  </a>
+                  <a href="javascript:;" class="dropdown-item d-flex align-items-center py-2">
+                    <div class="wd-30 ht-30 d-flex align-items-center justify-content-center bg-primary rounded-circle me-3">
+											<i class="icon-sm text-white" data-feather="alert-circle"></i>
+                    </div>
+                    <div class="flex-grow-1 me-2">
+											<p>Server Limit Reached!</p>
+											<p class="tx-12 text-muted">1 hrs ago</p>
+                    </div>	
+                  </a>
+                  <a href="javascript:;" class="dropdown-item d-flex align-items-center py-2">
+                    <div class="wd-30 ht-30 d-flex align-items-center justify-content-center bg-primary rounded-circle me-3">
+                      <img class="wd-30 ht-30 rounded-circle" src="assets/images/faces/face6.jpg" alt="userr">
+                    </div>
+                    <div class="flex-grow-1 me-2">
+											<p>New customer registered</p>
+											<p class="tx-12 text-muted">2 sec ago</p>
+                    </div>	
+                  </a>
+                  <a href="javascript:;" class="dropdown-item d-flex align-items-center py-2">
+                    <div class="wd-30 ht-30 d-flex align-items-center justify-content-center bg-primary rounded-circle me-3">
+											<i class="icon-sm text-white" data-feather="layers"></i>
+                    </div>
+                    <div class="flex-grow-1 me-2">
+											<p>Apps are ready for update</p>
+											<p class="tx-12 text-muted">5 hrs ago</p>
+                    </div>	
+                  </a>
+                  <a href="javascript:;" class="dropdown-item d-flex align-items-center py-2">
+                    <div class="wd-30 ht-30 d-flex align-items-center justify-content-center bg-primary rounded-circle me-3">
+											<i class="icon-sm text-white" data-feather="download"></i>
+                    </div>
+                    <div class="flex-grow-1 me-2">
+											<p>Download completed</p>
+											<p class="tx-12 text-muted">6 hrs ago</p>
+                    </div>	
+                  </a>
+                </div>
+								<div class="px-3 py-2 d-flex align-items-center justify-content-center border-top">
+									<a href="javascript:;">View all</a>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<img class="wd-30 ht-30 rounded-circle" src="assets/images/faces/face1.jpg" alt="profile">
+							</a>
+							<div class="dropdown-menu p-0" aria-labelledby="profileDropdown">
+								<div class="d-flex flex-column align-items-center border-bottom px-5 py-3">
+									<div class="mb-3">
+										<img class="wd-80 ht-80 rounded-circle" src="assets/images/faces/face1.jpg" alt="">
+									</div>
+									<div class="text-center">
+										<p class="tx-16 fw-bolder">Amiah Burton</p>
+										<p class="tx-12 text-muted">amiahburton@gmail.com</p>
+									</div>
+								</div>
+                <ul class="list-unstyled p-1">
+                  <li class="dropdown-item py-2">
+                    <a href="../general/profile.html" class="text-body ms-0">
+                      <i class="me-2 icon-md" data-feather="user"></i>
+                      <span>Profile</span>
+                    </a>
+                  </li>
+                  <li class="dropdown-item py-2">
+                    <a href="javascript:;" class="text-body ms-0">
+                      <i class="me-2 icon-md" data-feather="edit"></i>
+                      <span>Edit Profile</span>
+                    </a>
+                  </li>
+                  <li class="dropdown-item py-2">
+                    <a href="javascript:;" class="text-body ms-0">
+                      <i class="me-2 icon-md" data-feather="repeat"></i>
+                      <span>Switch User</span>
+                    </a>
+                  </li>
+                  <li class="dropdown-item py-2">
+                    <a href="javascript:;" class="text-body ms-0">
+                      <i class="me-2 icon-md" data-feather="log-out"></i>
+                      <span>Log Out</span>
+                    </a>
+                  </li>
+                </ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<!-- partial -->
+
+			<div class="page-content">
+				<div class="row">
+					<div class="col-xl-10 main-content ps-xl-4 pe-xl-5">
+						<h1 class="page-title">Carousel</h1>
+						<p class="lead">A slideshow component for cycling through elements—images or slides of text—like a carousel. Read the <a href="https://getbootstrap.com/docs/5.1/components/carousel/" target="_blank">Official Bootstrap Documentation</a> for a full list of instructions and other options.</p>
+						
+						<hr>
+						
+						<h4 id="slides-only">Slides only</h4>
+						<p class="mb-3">Here’s a carousel with slides only. Note the presence of the <code>.d-block</code> and <code>.w-100</code> on carousel images to prevent browser default image alignment.</p>
+						<div class="example">
+							<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img src="assets/images/photos/img10.jpg" class="d-block w-100" alt="...">
+									</div>
+									<div class="carousel-item">
+										<img src="assets/images/photos/img11.jpg" class="d-block w-100" alt="...">
+									</div>
+									<div class="carousel-item">
+										<img src="assets/images/photos/img15.jpg" class="d-block w-100" alt="...">
+									</div>
+								</div>
+							</div>
+						</div>
+					
+            
+						<hr>
+
+						<h4 id="with-controls">With controls</h4>
+						<p class="mb-3">Adding in the previous and next controls:</p>
+						<div class="example">
+							<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img src="assets/images/photos/img10.jpg" class="d-block w-100" alt="...">
+									</div>
+									<div class="carousel-item">
+										<img src="assets/images/photos/img11.jpg" class="d-block w-100" alt="...">
+									</div>
+									<div class="carousel-item">
+										<img src="assets/images/photos/img15.jpg" class="d-block w-100" alt="...">
+									</div>
+								</div>
+								<a class="carousel-control-prev" data-bs-target="#carouselExampleControls" role="button" data-bs-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="visually-hidden">Previous</span>
+								</a>
+								<a class="carousel-control-next" data-bs-target="#carouselExampleControls" role="button" data-bs-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="visually-hidden">Next</span>
+								</a>
+							</div>
+						</div>
+						
+						<hr>
+
+						<h4 id="with-indicators">With indicators</h4>
+						<p class="mb-3">You can also add the indicators to the carousel, alongside the controls, too.</p>
+						<div class="example">
+							<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+								<ol class="carousel-indicators">
+									<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+									<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+									<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+								</ol>
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img src="assets/images/photos/img10.jpg" class="d-block w-100" alt="...">
+									</div>
+									<div class="carousel-item">
+										<img src="assets/images/photos/img11.jpg" class="d-block w-100" alt="...">
+									</div>
+									<div class="carousel-item">
+										<img src="assets/images/photos/img15.jpg" class="d-block w-100" alt="...">
+									</div>
+								</div>
+								<a class="carousel-control-prev" data-bs-target="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="visually-hidden">Previous</span>
+								</a>
+								<a class="carousel-control-next" data-bs-target="#carouselExampleIndicators" role="button" data-bs-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="visually-hidden">Next</span>
+								</a>
+							</div>
+						</div>
+						
+            
+						<hr>
+
+						<h4 id="with-captions">With captions</h4>
+						<p class="mb-3">Add captions to your slides easily with the <code>.carousel-caption</code> element within any <code>.carousel-item</code>. They can be easily hidden on smaller viewports, as shown below, with optional <a href="https://getbootstrap.com/docs/5.1/utilities/display/" target="_blank">display utilities</a>. We hide them initially with <code>.d-none</code> and bring them back on medium-sized devices with <code>.d-md-block</code>.</p>
+						<div class="example">
+              <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/images/photos/img10.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>First slide label</h5>
+                      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/photos/img11.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/photos/img15.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" data-bs-target="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" data-bs-target="#carouselExampleCaptions" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </a>
+              </div>
+						</div>
+						
+						<hr>
+
+						<h4 id="crossfade">Crossfade</h4>
+						<p class="mb-3">Add <code>.carousel-fade</code> to your carousel to animate slides with a fade transition instead of a slide.</p>
+						<div class="example">
+							<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img src="assets/images/photos/img10.jpg" class="d-block w-100" alt="">
+									</div>
+									<div class="carousel-item">
+										<img src="assets/images/photos/img11.jpg" class="d-block w-100" alt="">
+									</div>
+									<div class="carousel-item">
+										<img src="assets/images/photos/img15.jpg" class="d-block w-100" alt="">
+									</div>
+								</div>
+								<a class="carousel-control-prev" data-bs-target="#carouselExampleFade" role="button" data-bs-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="visually-hidden">Previous</span>
+								</a>
+								<a class="carousel-control-next" data-bs-target="#carouselExampleFade" role="button" data-bs-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="visually-hidden">Next</span>
+								</a>
+							</div>
+						</div>
+					
+            
+					</div>
+					<div class="col-xl-2 content-nav-wrapper">
+						<ul class="nav content-nav d-flex flex-column">
+							<li class="nav-item">
+								<a href="#slides-only" class="nav-link">Slides only</a>
+							</li>
+							<li class="nav-item">
+								<a href="#with-controls" class="nav-link">With controls</a>
+							</li>
+							<li class="nav-item">
+								<a href="#with-indicators" class="nav-link">With indicators</a>
+							</li>
+							<li class="nav-item">
+								<a href="#with-captions" class="nav-link">With captions</a>
+							</li>
+							<li class="nav-item">
+								<a href="#crossfade" class="nav-link">Crossfade</a>
+              </li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		     <app-footer></app-footer>
+		</div>
+		
+
+
+
+</div>

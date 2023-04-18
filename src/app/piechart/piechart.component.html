@@ -1,0 +1,55 @@
+
+<div class="container">
+    <div class="row loan-count-types">
+        <div class="col-md-5">
+<div class="chartContainer">
+    <apx-chart [series]="chartSeries" [chart]="chartDetails" [labels]="chartLabels" [title]="chartTitle" [dataLabels]="chartDataLabels">
+
+    </apx-chart>
+</div>
+</div>
+<div class="col-md-7">
+    <div class="data-sm">
+        <h6 class="text-center">Count Comparison</h6>
+        <table class="table table-bordered border-primary">
+              <thead>
+                 <tr>
+                    <th>Current</th>
+                    <th>Previous</th>
+                     <th>Percentage</th>
+                 </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let d2 of data1">
+                    <td>{{d2.current}}</td>
+                    <td>{{d2.pervious}}</td>
+                     <td>{{d2.percentage}}</td>
+                </tr>
+              </tbody>
+        </table>
+
+    </div>
+    <div class="data">
+        <h6>Geograpical Comparison</h6>
+    </div>
+    <table datatable [dtOptions]="dtOptions" class="table table-bordered border-primary data-lg-value">
+        <thead>
+            <tr>
+            <th>State</th>
+            <th>Count</th>
+            <th>Volume</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let d1 of data">
+                <td>{{d1.state}}</td>
+                 <td>{{d1.count}}</td>
+                 <td>{{d1.volume}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+</div>
+
+

@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+div#DataTables_Table_1_length {
+    margin-bottom: 20px !important;
+}
+
+div#DataTables_Table_0_length {
+    margin-bottom: 20px !important;
+}
+
+table.dataTable tbody th,
+table.dataTable tbody td {
+
+    border-bottom: 1px solid #dee2e6 !important;
+}

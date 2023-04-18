@@ -1,0 +1,58 @@
+<div class="container">
+    <div class="row loan-count-types">
+        <div class="col-md-5">
+<div class="chartContainer">
+    <apx-chart [series]="chartSeries" [chart]="chartDetails" [labels]="chartLabels" [title]="chartTitle" [dataLabels]="chartDataLabels">
+
+    </apx-chart>
+</div>
+</div>
+    <div class="col-md-7">
+        <div class="count-compersion">
+            <h6>Volume Compersion</h6>
+            <table  class="table table-bordered border-primary bg-table-data">
+                <thead>
+                    <tr>
+                        <td>Current</td>
+                        <td>Pervious</td>
+                        <td>Percentage</td>
+                    </tr>
+                </thead>
+                   <tbody>
+                 <tr *ngFor="let d3 of data3">
+                      <td>{{d3.current}}</td>
+                      <td>{{d3.pervious}}</td>
+                      <td>{{d3.percentage}}</td>
+                 </tr>
+                </tbody>
+            </table>
+               <div class="lender">
+                <h6>Lender Comparison</h6>
+                <table datatable [dtOptions]="dtOptions"  class="table table-bordered border-primary data-value">
+                    <thead>
+                        <tr>
+                            <td>Lender Name</td>
+                            <td> Count </td>
+                              <td>Amount</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let d4 of data4">
+                            <td>{{d4.lendername}}</td>
+                            <td>{{d4.count}}</td>
+                            <td>{{d4.amount}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+               </div>
+           </div>
+       </div>
+   </div>
+</div>
+
+
+
+
+<!-----  chart------>
+
+
